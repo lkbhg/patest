@@ -1,0 +1,17 @@
+{
+  "base_url": "root_url/thread.php?fid=...",
+  "root_url": "",
+  "page_type": "&search=text",
+  "page_suffix": "&page=",
+  "start_page": 1,
+  "end_page": 1,
+  "threads": 10,
+  "max_retry_rounds": 3,
+  "retry_limit":3,
+  "failed_log": "failed_log.txt",
+  "title_selector": "h1#subject_tpc",
+  "content_selector": "div#read_tpc",
+  "sem_limit": 10,
+  "title_limit": 25,
+  "output_dir": "../data/"
+}

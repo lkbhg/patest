@@ -1,0 +1,36 @@
+{
+  "net": {
+    "base_url": "",
+    "table_suffix": "",
+    "page_type": "&search=text",
+    "page_suffix": "&page=",
+    "push_cookie_id":"",
+    "start_page": 1,
+    "end_page": 1,
+    "process": 8,
+    "sem_threads":8,
+    "identity_pool_size":10,
+    "timeout":20,
+    "retry_rounds": 3,
+    "failed_log": "failed_log.txt",
+    "title_selector": "h1#subject_tpc",
+    "content_selector": "div#read_tpc",
+    "title_limit": 25,
+    "output_dir": "./data/"
+  },
+  "treefile": {
+    "source_dir": "./data/",
+    "reorder_dir": "./reorder/",
+    "encoding": "utf-8",
+    "process": 8,
+    "sem_threads":16,
+    "auto_mkdir": true,
+    "dry_run": false,
+    "files_per_sub_folder": 250,
+    "sub_folder_per_parent": 20
+  },
+  "text": {
+    "title_limit": 25,
+    "lowercase": true
+  }
+}

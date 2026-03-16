@@ -1,0 +1,30 @@
+[project]
+name = "patest"
+version = "0.1.0"
+description = "patest is a Python spider framework"
+authors = [
+    { name="Kan Liu", email="lkbhg@outlook.com" }
+]
+license = { text = "BSL" }
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "cython>=3.2.4",
+    "dataclasses-json>=0.6.7",
+    "h2>=4.3.0",
+    "httpx[all]>=0.28.1",
+    "lxml>=6.0.2",
+    "opencc-python-reimplemented>=0.1.7",
+    "requests>=2.32.5",
+    "setuptools>=80.10.2",
+    "tqdm>=4.67.1",
+    "types-lxml>=2026.1.1",
+]
+
+
+
+
+[[tool.uv.index]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
